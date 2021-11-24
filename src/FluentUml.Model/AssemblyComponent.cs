@@ -12,6 +12,8 @@ public class AssemblyComponent : IComponent
     }
 
     public string Name { get { return this.assembly.GetName().Name ?? "Unknown"; } }
+
+    public IEnumerable<string>? Interfaces => null;
 }
 
 public static class AssemblyComponentExtensions

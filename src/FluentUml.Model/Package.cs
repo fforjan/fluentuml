@@ -12,6 +12,8 @@ public class Package : IAggregateComponent
     public string Name { get; }
 
     public List<IComponent> Components { get; }
+
+    public IEnumerable<string>? Interfaces => null;
 }
 
 public static class PackageExtensions 

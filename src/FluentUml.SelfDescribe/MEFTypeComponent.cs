@@ -14,6 +14,10 @@ public class MEFTypeComponent : IComponent {
 
     public string Name => this.type.Name;
 
+    public IEnumerable<string> Interfaces {get {
+        return type.GetCustomAttributes<ExportAttribute>().Select( _ => _.ContractName ?? _.ContractType.Name);
+    }}
+
     public static IEnumerable<Type> ExportedTypes(Assembly a) {
         foreach(var type in a.GetTypes()) {
             if(type.GetCustomAttributes<ExportAttribute>(true).Any()) {

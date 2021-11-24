@@ -10,6 +10,8 @@ public abstract class DiagramBase : IAggregateComponent
 
     public List<IComponent> Components { get;}
 
+    public IEnumerable<string>? Interfaces => null;
+
     public string Name {get;}
 
     public abstract void Describe();
