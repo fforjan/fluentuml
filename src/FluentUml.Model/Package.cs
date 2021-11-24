@@ -14,7 +14,6 @@ public class Package : IAggregateComponent
     public List<IComponent> Components { get; }
 }
 
-
 public static class PackageExtensions 
 {
     public static Package AddPackage(this IAggregateComponent component, string name){
