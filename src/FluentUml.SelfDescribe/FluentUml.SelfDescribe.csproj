@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\FluentUml.Generator\FluentUml.Generator.csproj" />
+    <ProjectReference Include="..\FluentUml.Model\FluentUml.Model.csproj" />
+    <ProjectReference Include="..\FluentUml.ExcelGenerator\FluentUml.ExcelGenerator.csproj" />
+    <ProjectReference Include="..\FluentUml.PlantUmlGenerator\FluentUml.PlantUmlGenerator.csproj" />
+    
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>
