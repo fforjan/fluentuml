@@ -12,7 +12,7 @@ namespace FluentUml.Generator;
 
             // Adds all the parts found in the same assembly as the Program class.
             foreach(var entry in args) {
-                var assembly = Assembly.LoadFile(entry);
+                var assembly = Assembly.LoadFile(Path.GetFullPath(entry));
                 catalog.Catalogs.Add(new AssemblyCatalog(assembly));
             }
 
