@@ -1,0 +1,6 @@
+<Project>
+ <PropertyGroup>
+    <!-- use C# 9 -->
+    <LangVersion>10.0</LangVersion>
+ </PropertyGroup>
+</Project>
