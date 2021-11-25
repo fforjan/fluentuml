@@ -22,8 +22,7 @@ jobs:
       working-directory: src/FluentUml.SelfDescribe  
       
     - name: Build
-      run: dotnet build --no-restore
-      working-directory: src/FluentUml.SelfDescribe
+      run: dotnet build --no-restore src/FluentUml.SelfDescribe
       
 #    - name: Test
 #      run: dotnet test --no-build --verbosity normal
