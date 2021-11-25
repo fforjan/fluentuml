@@ -1,0 +1,10 @@
+﻿@startuml
+package Core {
+
+
+}
+package Plugins {
+
+
+}
+@enduml

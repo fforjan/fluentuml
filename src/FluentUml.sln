@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentUml.ExcelGenerator", "FluentUml.ExcelGenerator\FluentUml.ExcelGenerator.csproj", "{25C2C449-E008-4E33-8919-E8AE1A5012E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentUml.Generator", "FluentUml.Generator\FluentUml.Generator.csproj", "{0B6AA533-B334-4A66-84C7-C96A426451BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentUml.Model", "FluentUml.Model\FluentUml.Model.csproj", "{449603D8-348D-4ED3-B026-431F70914273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentUml.PlantUmlGenerator", "FluentUml.PlantUmlGenerator\FluentUml.PlantUmlGenerator.csproj", "{2B9E19F9-1FA0-431A-B7DA-1A9EB46AB6C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentUml.PlantUmlGenerator.Tests", "FluentUml.PlantUmlGenerator.Tests\FluentUml.PlantUmlGenerator.Tests.csproj", "{969DBA47-F9D8-4EAB-96A6-42534543C5EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentUml.SelfDescribe", "FluentUml.SelfDescribe\FluentUml.SelfDescribe.csproj", "{FBA0B90D-001D-48ED-8480-F0415AAE1196}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25C2C449-E008-4E33-8919-E8AE1A5012E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C2C449-E008-4E33-8919-E8AE1A5012E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C2C449-E008-4E33-8919-E8AE1A5012E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C2C449-E008-4E33-8919-E8AE1A5012E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B6AA533-B334-4A66-84C7-C96A426451BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B6AA533-B334-4A66-84C7-C96A426451BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B6AA533-B334-4A66-84C7-C96A426451BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B6AA533-B334-4A66-84C7-C96A426451BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{449603D8-348D-4ED3-B026-431F70914273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{449603D8-348D-4ED3-B026-431F70914273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{449603D8-348D-4ED3-B026-431F70914273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{449603D8-348D-4ED3-B026-431F70914273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B9E19F9-1FA0-431A-B7DA-1A9EB46AB6C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9E19F9-1FA0-431A-B7DA-1A9EB46AB6C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B9E19F9-1FA0-431A-B7DA-1A9EB46AB6C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B9E19F9-1FA0-431A-B7DA-1A9EB46AB6C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{969DBA47-F9D8-4EAB-96A6-42534543C5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969DBA47-F9D8-4EAB-96A6-42534543C5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969DBA47-F9D8-4EAB-96A6-42534543C5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969DBA47-F9D8-4EAB-96A6-42534543C5EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA0B90D-001D-48ED-8480-F0415AAE1196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA0B90D-001D-48ED-8480-F0415AAE1196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA0B90D-001D-48ED-8480-F0415AAE1196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA0B90D-001D-48ED-8480-F0415AAE1196}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

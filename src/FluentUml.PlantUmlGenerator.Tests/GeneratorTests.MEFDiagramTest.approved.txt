@@ -1,0 +1,18 @@
+﻿@startuml
+package FluentUml.SelfDescribe {
+
+DiagramBase -- [ComponentDiagram]
+
+DiagramBase -- [MEFDiagram]
+}
+package FluentUml.Generator {
+}
+package FluentUml.Model {
+}
+package FluentUml.ExcelGenerator {
+}
+package FluentUml.PlantUmlGenerator {
+
+IGenerator -- [Generator]
+}
+@enduml

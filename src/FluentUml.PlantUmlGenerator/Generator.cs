@@ -12,7 +12,7 @@ public class Generator : IGenerator
             GeneratePlantUmlDocument(diagram, sw);
     }
 
-    private void GeneratePlantUmlDocument(DiagramBase db, TextWriter sw) {
+    public void GeneratePlantUmlDocument(DiagramBase db, TextWriter sw) {
         sw.WriteLine("@startuml");
         foreach(var pack in db.Components.OfType<Package>()) {
             GeneratePlantUmlDocument(pack, sw);
