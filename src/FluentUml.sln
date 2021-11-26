@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentUml.PlantUmlGenerator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentUml.SelfDescribe", "FluentUml.SelfDescribe\FluentUml.SelfDescribe.csproj", "{FBA0B90D-001D-48ED-8480-F0415AAE1196}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentUml.Model.Tests", "FluentUml.Model.Tests\FluentUml.Model.Tests.csproj", "{AB3FE8A9-E318-4B3F-BCD0-AF269966F8F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{FBA0B90D-001D-48ED-8480-F0415AAE1196}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBA0B90D-001D-48ED-8480-F0415AAE1196}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBA0B90D-001D-48ED-8480-F0415AAE1196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB3FE8A9-E318-4B3F-BCD0-AF269966F8F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB3FE8A9-E318-4B3F-BCD0-AF269966F8F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB3FE8A9-E318-4B3F-BCD0-AF269966F8F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB3FE8A9-E318-4B3F-BCD0-AF269966F8F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
