@@ -1,8 +1,8 @@
 ﻿@startuml
 package FluentUml.SelfDescribe {
-
+[ComponentDiagram]
 DiagramBase -- [ComponentDiagram]
-
+[MEFDiagram]
 DiagramBase -- [MEFDiagram]
 }
 package FluentUml.Generator {
@@ -12,7 +12,7 @@ package FluentUml.Model {
 package FluentUml.ExcelGenerator {
 }
 package FluentUml.PlantUmlGenerator {
-
+[Generator]
 IGenerator -- [Generator]
 }
 @enduml

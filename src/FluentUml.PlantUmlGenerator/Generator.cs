@@ -32,7 +32,7 @@ public class Generator : IGenerator
     private void GeneratePlantUmlDocument(IComponent component, TextWriter sw)
     {
         var id = $"[{component.Name}]";
-        sw.WriteLine();
+        sw.WriteLine(id);
         foreach(var componentInterface in component.Interfaces ?? Enumerable.Empty<string>())
         {
             sw.WriteLine($"{componentInterface} -- {id}");   

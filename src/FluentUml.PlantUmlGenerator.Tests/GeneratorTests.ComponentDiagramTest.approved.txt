@@ -1,10 +1,10 @@
 ﻿@startuml
 package Core {
-
-
+[FluentUml.Generator]
+[FluentUml.Model]
 }
 package Plugins {
-
-
+[FluentUml.ExcelGenerator]
+[FluentUml.PlantUmlGenerator]
 }
 @enduml
